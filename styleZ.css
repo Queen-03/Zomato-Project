@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.top_main{
+    background-image: url('https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png');
+    height: 500px;
+    width: 100pwh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.top{
+    height: 50px;
+    width: 100wh;
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-items: center;
+    padding: 40px;
+}
+.ltop{
+    color: white;
+}
+.rtop{
+    color: white;
+    padding: 30px;
+    display: flex;
+    margin-left: 300px;
+    
+}
+.rtop > p{
+    padding: 19px;
+    font-size: 1.3rem;
+}
+.center{
+    margin-top: 40px;
+    color: white;
+    align-items: center;
+    justify-items: center;
+}
+.center > h1{
+    font-size: 5.2rem;
+    font-style: italic;
+}
+.center > p{
+    font-size: 2.2rem;
+}
+.bottom{
+    background-color: white;
+    height: 50px;
+    margin: 50px 390px;
+    display: flex;
+    /* justify-content: space-evenly; */
+    padding: 10px;
+}
+.add{
+    width: 250px;
+    align-items: center;
+    display: block;
+    justify-items: center;
+    color: black;
+    font-size: 1rem;
+    border-right: 1px solid black;
+}
+.search{
+    margin-left: 10px;
+    color: black;
+    font-size: 1rem;
+}
+
+/* center section start */
+.center_main{
+    height: 96vh;
+    background-color: rgb(209, 180, 180);
+}
