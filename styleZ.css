@@ -76,5 +76,54 @@
 /* center section start */
 .center_main{
     height: 96vh;
-    background-color: rgb(209, 180, 180);
+}
+.box1{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 60px;
+    padding: 60px;
+}
+.img1{
+    border-radius: 20px;
+}
+
+.img1 > img{
+    height: 270px;
+    width: 400px;
+    border-radius: 20px;
+}
+.para{
+    position: relative;
+    top: -100px;
+    background-color: white;
+    height: 100px;
+    padding: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.box2>p{
+    font-size: 3rem;
+    margin-left: 200px;
+}
+.text_box{
+    margin-left: 200px;
+    margin-top: 40px;
+    height: 60px;
+    width: 500px;
+    background-color: white;
+    display: flex;
+    border-radius: 5px;
+    box-shadow: 0.2px 0.2px 2px black;
+    
+}
+.fir{
+ width: 95%;
+ margin: 4px;
+ font-size: 1.2rem;
+}
+.sec{
+    align-items: center;
+    justify-items: center;
+    margin: 17px;
 }
